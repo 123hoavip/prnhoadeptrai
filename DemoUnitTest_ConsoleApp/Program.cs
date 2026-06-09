@@ -18,7 +18,7 @@ var body = new
 {
     model = "google/gemma-4-e4b",
     messages = new[] { new { role = "user", content = prompt } },
-    max_tokens = 400,
+    
     stream = false,
     temperature = 0.2
 };
